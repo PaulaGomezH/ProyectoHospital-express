@@ -1,0 +1,99 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("/img/fondo2.png"); 
+  background-repeat:repeat-y;
+  background-position: right;
+}
+a {
+  color: #0400ff;
+}
+
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: calc();
+  margin-bottom: 25px;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+input {
+  border: 0;
+}
+
+img{
+  width: 300px;
+}
+
+a, input[type="submit"] {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #3003f8;
+  border: none;
+  font-size: medium;
+  border-radius: 4px;
+  text-align: center;
+}
+
+a:hover, input[type="submit"]:hover {
+  background-color: #3b29e4;
+}
+
+.volver, .editar{
+  background-color: #2516ee;
+}
+
+.eliminar {
+  background-color: #ff0000;
+}
+
+.volver,.editar:hover {
+  background-color: #0c00ad94;
+}
+
+.eliminar:hover {
+  background-color: #9a0000;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.opciones-tabla{
+  display: flex;
+  justify-content: center;
+}
+
+.opciones-tabla a{
+  width: 150px;
+    text-align: center;
+    margin: 10px;
+}
